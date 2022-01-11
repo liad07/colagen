@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>coca cola genrator</title>
+   <!-- <script src="main.js"></script>-->
+    <link rel="icon" href="https://s3-symbol-logo.tradingview.com/coca-cola--600.png">
+    <script>
+        function myFunction() {
+            alert("Hello! I am an alert box!");
+        }
+        var num;
+        var x;
+        var y;
+        var a;
+        var b;
+        var z;
+        var base = "2480655";
+        var max = 5;
+        var min = 1;
+        var range = max - min + 1;
+        var achdot = 0;
+        var asarot = 0;
+        var meot = 0;
+        var alfim = 0;
+        console.log("how much codes you want");
+        const input = prompt("how much codes you want",num);
+        console.log(`תקבל  ${input} פקקים`);
+
+
+        for (var i = 0; input >i; i++) {
+            achdot = Math.floor(Math.random(Number) * range) + min;
+            asarot = Math.floor(Math.random(Number) * range) + min;
+            meot = Math.floor(Math.random(Number) * range) + min;
+            alfim = Math.floor(Math.random(Number) * range) + min;
+
+            //   achdot.toString();
+            // asarot.toString();
+            // meot.toString();
+            //alfim.toString();
+
+            z=base+alfim+meot+asarot+achdot+"5";
+            document.writeln(z)
+
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
