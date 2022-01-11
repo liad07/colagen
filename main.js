@@ -1,4 +1,3 @@
-// Generated JS from Java: cocacola -----
 
 
 
